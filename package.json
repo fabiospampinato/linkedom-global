@@ -1,0 +1,37 @@
+{
+  "name": "linkedom-global",
+  "repository": "github:fabiospampinato/linkedom-global",
+  "description": "Make Node a browser-like environemnt, by using LinkeDOM.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/variants/default.js",
+    "./cached": "./dist/variants/cached.js",
+    "./worker": "./dist/variants/worker.js"
+  },
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "tsex test",
+    "test:watch": "tsex test --watch",
+    "prepublishOnly": "tsex prepare"
+  },
+  "keywords": [
+    "linkedom",
+    "dom",
+    "browser",
+    "environemnt"
+  ],
+  "peerDependencies": {
+    "linkedom": "*"
+  },
+  "devDependencies": {
+    "fava": "^0.2.0",
+    "linkedom": "*",
+    "tsex": "^2.2.2",
+    "typescript": "^4.9.5"
+  }
+}
