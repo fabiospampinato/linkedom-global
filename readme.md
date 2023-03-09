@@ -1,6 +1,6 @@
 # LinkeDOM Global
 
-Make Node a browser-like environemnt, by using [LinkeDOM](https://github.com/WebReflection/linkedom).
+Make Node a browser-like environment, by using [LinkeDOM](https://github.com/WebReflection/linkedom).
 
 ## Install
 
