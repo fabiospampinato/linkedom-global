@@ -2,6 +2,7 @@
   "name": "linkedom-global",
   "repository": "github:fabiospampinato/linkedom-global",
   "description": "Make Node a browser-like environment, by using LinkeDOM.",
+  "license": "MIT",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -29,9 +30,8 @@
     "linkedom": "*"
   },
   "devDependencies": {
-    "fava": "^0.2.1",
-    "linkedom": "*",
-    "tsex": "^3.0.1",
-    "typescript": "^5.1.6"
+    "fava": "^0.3.4",
+    "tsex": "^4.0.2",
+    "typescript": "^5.8.2"
   }
 }
