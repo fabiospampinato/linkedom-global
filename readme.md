@@ -5,7 +5,7 @@ Make Node a browser-like environment, by using [LinkeDOM](https://github.com/Web
 ## Install
 
 ```sh
-npm install --save linkedom-global
+npm install linkedom-global
 ```
 
 ## Usage
@@ -16,6 +16,8 @@ Simply importing it will register browser-like globals:
 import 'linkedom-global'; // Register globals using 'linkedom'
 // import 'linkedom-global/cached'; // Register globals using 'linkedom/cached'
 // import 'linkedom-global/worker'; // Register globals using 'linkedom/worker'
+
+// Let's check that some browser-like globals are available
 
 console.log ( typeof globalThis.window ); // => 'object'
 console.log ( typeof globalThis.document ); // => 'object'
